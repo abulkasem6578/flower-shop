@@ -91,7 +91,6 @@ body {
 }
 
 .flower-div {
-    border-radius: ;
     display: flex;
     gap: 25px;
 }
@@ -133,4 +132,47 @@ body {
 .flower-3 .image-4 {
     width: 314px;
     height: 471px;
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 20px;
+}
+
+.our-services {
+    background: #2727270D;
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    margin: 150px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding: 100px;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery>img {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 10px;
+}
+
+.delivery>p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
 }
