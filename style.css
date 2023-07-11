@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header style */
+
+
+.header {
+    background: rgb(237, 225, 225);
+}
+
+.banner {
+    padding: 10px 0 30px 140px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .image-1 {
+    width: 400px;
+}
