@@ -10,18 +10,18 @@
 /* header style */
 
 body {
-    width: 1920px;
+    width: 100%;
 }
 
 .header {
     background: #E554731A;
-
 }
 
 .banner {
     padding: 0 240px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 
 }
 
@@ -29,25 +29,32 @@ body {
     margin: 165px 0;
 }
 
+.first_image {
+    margin-top: 58px;
+}
+
 .first-image .image-1 {
     width: 635px;
     height: 800px;
-    padding-bottom: 0;
+    padding-bottom: 0 240px;
 }
 
 .banner-title {
     color: #272727;
     font-size: 80px;
+    font-style: normal;
     font-weight: 800;
-    margin-bottom: 20px;
+    line-height: 94px;
+    margin-bottom: 18px;
 }
+
 
 #banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 30px;
+
+    margin: 32px 0;
 }
 
 .btn-style {
@@ -59,6 +66,7 @@ body {
     align-items: flex-start;
     gap: 10px;
     color: white;
+    font-size: 19px;
 }
 
 /* main section style */
@@ -144,12 +152,15 @@ body {
     margin: 20px;
 }
 
+
+/* Service section */
+
 .our-services {
     background: #2727270D;
     display: flex;
     width: 1440px;
     height: 320px;
-    margin: 150px 0;
+    margin: 200px 0;
     align-items: center;
     justify-content: center;
     gap: 130px;
@@ -175,4 +186,184 @@ body {
     font-weight: 600;
     line-height: 35px;
     margin-top: 10px;
+}
+
+/* Offer section style */
+
+.offer-section {
+    background: #E554730D;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-style-2 {
+    border-radius: 10px;
+    background: #E55473;
+    border: 0;
+    display: flex;
+    padding: 20px 43px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 19px;
+}
+
+.offer-flower {
+    width: 318px;
+    height: 420px;
+    margin: 100px;
+}
+
+/* Social media style */
+
+.social-section {
+    background: #fff;
+    margin: 150px 240px;
+}
+
+.instagram {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px;
+}
+
+.social-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.social-image {
+    display: flex;
+    gap: 20px;
+}
+
+.common-image {
+    width: 342px;
+    height: 396px;
+}
+
+/* Subscribe section style */
+
+.subscribe-box {
+    background-image: url(/flower-image/Rectangle\ 9.png);
+    margin: 100px 240px;
+    height: 449px;
+}
+
+.subscribe-banner {
+    padding-top: 150px;
+}
+
+.subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.common-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 287px 121px;
+    gap: 15px;
+}
+
+.input-div {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    padding-left: 15px;
+}
+
+.subscribe-btn {
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* footer style */
+
+.footer {
+    background: #111010;
+    width: 100%;
+    height: 449px;
+}
+
+.footer-title>span {
+    color: #E55473;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    align-items: center;
+    padding: 110px 830px 10px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
